@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Flask / App Specific
+instance/
+uploads/
+*.db
+*.sqlite3
+app.log
+app_run.log
+pip_out.txt
+pip_install_all.log
+pip_install2.log
+cert.pem
+key.pem
+
+# ML Model files (large binaries - not uploaded to GitHub)
+# (Allowed for Render deployment)
+# Fracture_XGBoost
+# TB_XGBoost
+# *.pkl
+# *.pickle
+
+# Huge data folder ignored
+data/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Secrets
+.env
+.env.*
+secrets.py
+
+# Migrations (optional - keep if you want migration history)
+# migrations/
